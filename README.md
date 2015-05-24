@@ -1,3 +1,2 @@
 # ROS
-Turtle package
-Package for controlling ros turtlesim.
+To learn how to use packages, look inside a package for other README.
