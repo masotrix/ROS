@@ -97,7 +97,10 @@ include_directories(include/${PROJECT_NAME})
 #   src/${PROJECT_NAME}/controllersim.cpp
 # )
 
-add_executable(controllersim_node src/controllersim_node.cpp src/controllersim.cpp)
+add_executable(controllersim_node 
+        src/controllersim_node.cpp 
+        src/controllersim.cpp
+        src/controllersim_movement.cpp)
 add_dependencies(controllersim_node controllersim_node_generate_messages_cpp)
 target_link_libraries(controllersim_node ${catkin_LIBRARIES})
 
