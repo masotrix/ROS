@@ -49,10 +49,8 @@ int main(int argc, char **argv)
 		ready = false;
 		break;
 	    case 1:
-		{
 		dance(velocity_publisher);		
 		break;
-		}
 	    case 2:
 		straight(velocity_publisher);
 		break;
