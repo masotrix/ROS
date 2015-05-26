@@ -1,4 +1,11 @@
-
+/*
+ * Author: Ignacio Haeussler
+ * Year: 2015
+ * Course: Arquitectura de computadores (CC4301)
+ * University: Universidad de Chile (Chile)
+ *
+ */
+ 
 #include "controllersim.h"
 
 #define PI 3.14159265
